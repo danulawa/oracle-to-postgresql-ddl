@@ -1,0 +1,19 @@
+Python Virtual Environment
+
+Step 1 - python -m venv myenv
+Step 2 - myenv/Scripts/activate
+
+Python Packages installed
+
+1. pip install Flask
+2. pip install gunicorn
+
+Sample Commands
+
+Create requirements.txt - pip freeze > requirements.txt
+
+
+Heroku Commands
+
+Heroku Login - to Login
+heroku logs --app <app_name> --tail - To view end of logs in an app
