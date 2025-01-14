@@ -1,0 +1,22 @@
+CREATE TABLE bl_invoice.blinv_reasons_mapping (
+    id numeric,
+    created_by numeric,
+    created_date timestamp without time zone,
+    hospital numeric,
+    hospital_id numeric,
+    is_active numeric,
+    is_deleted numeric,
+    location numeric,
+    location_id numeric,
+    location_name varchar,
+    modified_by numeric,
+    modified_date timestamp without time zone,
+    row_version numeric,
+    tenant_id numeric,
+    user_id numeric,
+    user_name varchar,
+    reason_id numeric,
+    reason_name varchar,
+    type_id numeric
+);
+ALTER TABLE bl_invoice.blinv_reasons_mapping ADD CONSTRAINT blinv_reasons_mapping_pkey PRIMARY KEY (ID);

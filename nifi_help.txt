@@ -1,0 +1,22 @@
+SELECT *
+FROM bl_invoice.blinv_reasons_mapping;
+
+id as "id",
+created_by as "created_by",
+created_date as "created_date",
+hospital as "hospital",
+hospital_id as "hospital_id",
+is_active as "is_active",
+is_deleted as "is_deleted",
+location as "location",
+location_id as "location_id",
+location_name as "location_name",
+modified_by as "modified_by",
+modified_date as "modified_date",
+row_version as "row_version",
+tenant_id as "tenant_id",
+user_id as "user_id",
+user_name as "user_name",
+reason_id as "reason_id",
+reason_name as "reason_name",
+type_id as "type_id"

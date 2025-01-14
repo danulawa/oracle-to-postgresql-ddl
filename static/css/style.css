@@ -1,20 +1,40 @@
-:root {
-    --bg-color-1: #141414;
-    --bg-color-2: #323232;
-    --bg-color-3: #414141;
-    --line-color-1: #00aaff;
-    --text-color-1: #ffffff;
-
-    --font-family-1: "Source Code Pro", monospace;
-    
-    --font-weight-1: 300;
-    --font-weight-2: 400;
-    --font-weight-3: 600;
+/* Custom Styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text */
 }
 
-.body {
-    background-color: var(--bg-color-1);
-    font-family: var(--font-family-1);
-    font-optical-sizing: auto;
-    font-weight: var(--font-weight-1);
+textarea {
+    background-color: #1e1e1e; /* Slightly lighter background for the textarea */
+    color: white;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+textarea:focus {
+    border-color: #007bff; /* Blue border when focused */
+    background-color: #333; /* Darker background when focused */
+    outline: none; /* Remove the default outline */
+}
+
+button {
+    background-color: #007bff; /* Primary blue background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1.1rem; /* Slightly larger text */
+    padding: 12px 20px; /* Comfortable padding */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px; /* Reduced margin-top on smaller screens */
+    }
 }
